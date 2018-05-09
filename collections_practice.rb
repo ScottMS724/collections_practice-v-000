@@ -51,7 +51,7 @@ def add_s(array)
     if not array[1]
       element << "s"
     end 
-  end
+  end 
 end
 
 
