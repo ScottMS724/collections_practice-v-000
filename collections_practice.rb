@@ -51,6 +51,8 @@ def add_s(array)
     unless index == 1 
       element << "s"
     end
+  end
+    array
 end
 
 
