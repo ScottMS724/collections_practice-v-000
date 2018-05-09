@@ -47,13 +47,7 @@ def sum_array(integer_array)
 end
 
 def add_s(array)
-  array.collect do |element| 
-    if not array[1]
-      element << "s"
-      array << element
-    end 
-  end 
-  array
+  
 end
 
 
