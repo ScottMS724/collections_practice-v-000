@@ -51,6 +51,7 @@ def add_s(array)
   array.collect do |element| 
     if not array[1]
       element << "s"
+      new_array << element
     end 
   end 
   
